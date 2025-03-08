@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from "react";
+import  { ChangeEvent, useState } from "react";
 import { ITodo } from "./types.tsx"
 import "./app.css"
 export default function App() {
