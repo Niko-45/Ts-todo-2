@@ -1,0 +1,66 @@
+
+ul {
+    width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+
+}
+.search{
+    width: 30%;
+    margin: 10px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+li p {
+    margin: 0;
+    flex: 1;
+}
+
+li input {
+    width: 10%;
+}
+.todo_actions {
+    display: flex;
+    gap: 10px;
+}
+
+.todo_actions button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    width: 50%;
+}
+
+
